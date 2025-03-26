@@ -11,8 +11,6 @@ import router from "./routes/index.js";
 import authRoutes from "./routes/authRoute.js";
 import postRoutes from "./routes/postRoute.js";
 
-import updatePassword from "./hash/Node.js";
-
 dotenv.config();
 
 const app = express();
@@ -46,7 +44,7 @@ app.use("/auth", authRoutes); // Public routes (no userAuth middleware)
 
 app.use(errorMiddleware);
 
-//updatePassword();
+
 app.listen(PORT, () => {
   console.log("Server running of port " + PORT);
 });
