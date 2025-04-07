@@ -49,6 +49,7 @@ AUTH_PASSWORD = "your_password"
 ![Screenshot (10)](https://github.com/user-attachments/assets/175be97a-49e6-44ad-8dbc-5f08fbd0aa22)
 
 Admin: https://socialmediaapp-admin.onrender.com
+Backend: https://socialmediaapp-server-ujju.onrender.com
 
 
 

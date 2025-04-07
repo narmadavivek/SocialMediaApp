@@ -44,7 +44,7 @@ app.use("/auth", authRoutes); // Public routes (no userAuth middleware)
 
 app.use(errorMiddleware);
 
-//updatePassword();
+
 app.listen(PORT, () => {
   console.log("Server running of port " + PORT);
 });
